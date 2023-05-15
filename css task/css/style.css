@@ -7,7 +7,9 @@
 .proTable{
     border: 1px solid black;
 }
-
+.proTable tr td{
+    border: 1px solid black;
+}
 #drpodownList::after{
 content: "🔽";
 margin-left: 90px;
@@ -34,7 +36,7 @@ cursor: pointer;
 #drpodownList{
    width: 200px;
    background-color: #FFD336;
-    
+    color: black;
     padding: 10px 0px 10px 40px;
    margin-right: 10px;
 }
@@ -44,7 +46,7 @@ cursor: pointer;
 }
 nav{
     background-color: #3F484D;
-   
+   color: white;
 }
 .rightList{
     height: 40px;
