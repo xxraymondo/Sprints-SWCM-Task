@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.ProductImg{
+    width: 400px;height: 400px; margin: auto;border: 1px solid black;display: block;
+}
+.proTable{
+    border: 1px solid black;
+}
+
+#drpodownList::after{
+content: "🔽";
+margin-left: 90px;
+cursor: pointer;
+}
+#drpodownList::before{
+    content: "≡";
+    margin-right: 10px;
+}
+.proTable tr th{
+    border: 1px solid black;
+}
+.headerName{
+    color: rgb(0, 0, 101);
+}
+.container{
+    padding: 0px 50px;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    height: 40px;
+}
+#drpodownList{
+   width: 200px;
+   background-color: #FFD336;
+    
+    padding: 10px 0px 10px 40px;
+   margin-right: 10px;
+}
+.navList li:not(:first-child){
+    padding: 10px 20px;
+    
+}
+nav{
+    background-color: #3F484D;
+   
+}
+.rightList{
+    height: 40px;
+    list-style: none;
+    display: flex;
+}
+.rightList li{
+display: inline;
+padding: 10px 20px;
+}
