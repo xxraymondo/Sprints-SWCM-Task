@@ -22,8 +22,14 @@ cursor: pointer;
 .proTable tr th{
     border: 1px solid black;
 }
+.ListLink{
+    text-decoration: none;
+    color: white;
+    
+}
 .headerName{
     color: rgb(0, 0, 101);
+    margin: 20px 0px;
 }
 .container{
     padding: 0px 50px;
@@ -47,6 +53,7 @@ cursor: pointer;
 nav{
     background-color: #3F484D;
    color: white;
+   overflow: hidden;
 }
 .rightList{
     height: 40px;
