@@ -1,0 +1,52 @@
+body{
+   background-color:  #532a7f;
+   font-family: 'Archivo', sans-serif;
+   color:#fff;
+   box-sizing: border-box;
+}
+.container{
+    padding: 50px 100px;
+}
+.mainDiv{
+    padding: 0px 200px;
+    text-align: center;
+}
+.mainDivSongList{
+    padding: 0px 200px;
+}
+.songsList{
+   
+    border: 3px solid white;
+    padding: 20px 60px;
+}
+.clear{
+    clear: both;
+}
+.song{
+    width: 50%;
+    float: left;
+}
+.mainSongList{
+    display: flex;
+}
+.secSongList{
+    display: inline-block; 
+    width: 50px;height: 50px; 
+    background-color: #BB00FC; 
+    text-align: center;border-radius: 10px;margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.secSongListforAudio{
+    display: inline-block; 
+    width: 50px;height: 50px; 
+    margin-bottom: 10px;
+}
+
+
+.secSongList p {
+    color: #fff;
+}
+.songName{
+    display: inline;
+}
