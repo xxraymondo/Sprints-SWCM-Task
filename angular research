@@ -1,0 +1,26 @@
+Angular vs react vs vue
+
+
+General :
+Angular is  full-fledged framework and vue is progressive framework while react is UI library
+
+Structure :
+Components are integral parts of all three frameworks, no matter if we’re talking Vue, React, or Angular. A component generally gets an input, and changes behavior based on it. This behavior change generally manifests as a change in the UI of some part of the page. The use of components makes it easy to reuse code. A component may be a cart on an e-commerce site or a login box on a social network. 
+
+Angular: In Angular, components are referred to as directives. Directives are just markers on DOM elements, which Angular can track and attach specific behavior too. Therefore, Angular separates the UI part of components as attributes of HTML tags, and their behaviors in the form of JavaScript code. This is what sets it apart when looking at Angular vs 
+
+React: React, interestingly, combines the UI and behavior of components. For instance, here is the code to create a hello world component in React. In React, the same part of the code is responsible for creating a UI element and dictating its behavior. 
+
+Vue: When looking into Vue vs React, in Vue, UI and behavior are also a part of components, which makes things more intuitive. Also, Vue is highly customizable, which allows you to combine the UI and behavior of components from within a script. Further, you can also use pre-processors in Vue rather than CSS, which is a great functionality. Vue is great when it comes to integration with other libraries, like Bootstrap.
+
+
+Syntax : Angular uses TypeScript and splits HTML + TypeScript logic apart, React uses JavaScript and a feature called "JSX" (it combines "HTML" and JavaScript logic), Vue uses regular JavaScript and splits HTML + JavaScript logic apart.
+
+Performance
+Angular.js – For each binding, Angular.js generates an observer to record any DOM changes. The new values are compared to the old ones each time the view is updated. Large mobile applications may have worse performance as a result of this.
+
+React.js – React employs a virtual DOM, so when the view is changed, the new DOM evaluates it against the virtual DOM and adjusts.
+
+Vue.js – Because of the virtual DOM, which is helpful for complex programs, Vue.js performs better. It can be as small as 20KB while yet keeping its speed and adaptability, outperforming rival frameworks by a wide margin.
+
+
